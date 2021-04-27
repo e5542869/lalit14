@@ -1,0 +1,347 @@
+30
+
+exec LoginGetDefaultValuesForCurrentUser 30
+
+exec LoginGetDefaultValuesForCurrentUser 58986
+
+
+
+select * from role
+
+select * from RoleUserAccount where rua_useraccountid='30'
+select * from RoleUserAccount where rua_useraccountid='30'
+
+
+UA_InstId
+300010
+
+.........................
+
+
+insert into useraccount values (58987,20056,'f1Nw9K3uSbDwj6rfryjFyw==','testpassword',Getdate(),Getdate(),'PasswordCode','Security','Action',0,Getdate(),	
+'2014-08-29 00:00:00.000','2014-08-29 00:00:00.000',0,0,NULL,'I',1,'2014-08-29 00:00:00.000',2,	
+'2014-08-29 00:00:00.000',2,default,NULL,NULL,'f1Nw9K3uSbDwj6rfryjFyw==','f1Nw9K3uSbDwj6rfryjFyw==')
+
+
+insert into Intra_InstInfo values (20056,'KC,ASR, Khalsa Global ',20056,	'KGRF',	7,	NULL,	default,	Getdate(),	2,	NULL,	NULL)
+
+
+
+.................................
+
+insert into useraccount values (58987,20056,'f1Nw9K3uSbDwj6rfryjFyw==','testpassword',Getdate(),Getdate(),'PasswordCode','Security','Action',0,Getdate(),	
+'2014-08-29 00:00:00.000','2014-08-29 00:00:00.000',0,0,NULL,'I',1,'2014-08-29 00:00:00.000',2,	
+'2014-08-29 00:00:00.000',2,default,NULL,NULL,'f1Nw9K3uSbDwj6rfryjFyw==','f1Nw9K3uSbDwj6rfryjFyw==')
+
+
+insert into Intra_InstInfo values (20056,'KC,ASR, Khalsa Global ',20056,	'KGRF',	7,	NULL,	default,	Getdate(),	2,	NULL,	NULL)
+
+1/30.3.2019/20056
+
+
+select getdate()
+
+select * from Intra_AdmForms
+
+select * from Intra_InstInfo where inst_userid='20055';
+
+insert into Intra_InstInfo values (20056,'Khalsa Global Reach Foundation, Inc.',20056,	'KGRF',	7,	NULL,	default,	Getdate(),	2,	NULL,	NULL)
+
+delete from Intra_InstInfo where inst_userid='20056';
+
+
+select * from accounts.temptotalaccountgroupdebitcredit  1911
+
+update Intra_InstInfo set inst_title='Khalsa Global Reach Foundation, Inc.' where inst_id='20056';
+
+select * from accounts.temptotalaccountgroupdebitcreditbackup
+
+
+...............................................
+
+(22184549 row(s) affected)
+
+....................
+
+
+insert into useraccount values (58987,20056,'f1Nw9K3uSbDwj6rfryjFyw==','testpassword',Getdate(),Getdate(),'PasswordCode','Security','Action',0,Getdate(),	
+'2014-08-29 00:00:00.000','2014-08-29 00:00:00.000',0,0,NULL,'I',1,'2014-08-29 00:00:00.000',2,	
+'2014-08-29 00:00:00.000',2,default,NULL,NULL,'f1Nw9K3uSbDwj6rfryjFyw==','f1Nw9K3uSbDwj6rfryjFyw==')
+
+
+insert into Intra_InstInfo values (20056,'KC,ASR, Khalsa Global ',20056,	'KGRF',	7,	NULL,	default,	Getdate(),	2,	NULL,	NULL)
+
+insert into RoleUserAccount values(4,58987,GetDate(),2,GetDate(),2,default)
+
+
+..................................
+
+
+
+
+select * from accounts.transactionmaster where voucherno='5/9.11.2009/20034';
+
+203522	20034	0	5/9.11.2009/20034	2009-11-09 00:00:00.000	382565.00000	5	8	20034	2019-05-10 09:55:07.270	2019-05-10 09:55:07.270	20034	NULL	NULL	0	By cheque received from hony secy office on a/c of salary non teaching staff.	20034	361719	5
+..............................................
+
+
+select  * from accounts.transactiondetails where transactionmasterid='203522';
+
+481794	203522	1708	382565.00000	0.00000	NULL	NULL	NULL	0	845bf994-e877-4c6e-8b80-4dea99efa468	20034
+481795	203522	1696	0.00000	382565.00000	NULL	NULL	NULL	0	845bf994-e877-4c6e-8b80-4dea99efa468	20034
+
+.............................................................
+
+select * from Accounts.vTransactionDetails  where transactionmasterid='203522';
+
+481794	203522	1708	0.00	382565.00	8	5	2009-11-09 00:00:00.000	11	20034	0	92	Hony Secy Salary A/C	2009	0	845bf994-e877-4c6e-8b80-4dea99efa468	20034	0
+481795	203522	1696	382565.00	0.00	8	5	2009-11-09 00:00:00.000	11	20034	0	90	PNB A/C No. 1122	2009	0	845bf994-e877-4c6e-8b80-4dea99efa468	20034	0
+
+
+................................................
+
+delete from accounts.transactiondetails where transactionmasterid='203522';
+
+delete from Accounts.vTransactionDetails where transactionmasterid='203522';
+
+delete from accounts.transactionmaster where voucherno='5/9.11.2009/20034';
+
+.................................................
+
+
+select  * from accounts.transactionmaster where transactiondate='2019-04-29 00:00:00.000'
+and voucherno like'%30.3.2019%'
+
+201288	20028	0	2709/30.3.2019/20028	2019-04-29 00:00:00.000	0.00000	5	7	20028	2019-04-29 09:16:43.870	2019-04-29 09:16:43.870	20028	NULL	NULL	0	By Rpt No. 6370 for PDC	20028	cash	2709
+201290	300010	0	786/30.3.2019/300010	2019-04-29 00:00:00.000	0.00000	5	7	300010	2019-04-29 09:29:00.237	2019-04-29 09:29:00.237	300010	NULL	NULL	0	rectified	300010	2095	786
+201311	20025	0	1/30.3.2019/20025	2019-04-29 00:00:00.000	0.00000	6	7	20025	2019-04-29 11:03:19.390	2019-04-29 11:03:19.390	20025	NULL	NULL	0	.......	20025	journal	1
+201352	20018	0	291/30.3.2019/20018	2019-04-29 00:00:00.000	145700.00000	6	7	20018	2019-04-29 12:57:32.117	2019-04-29 12:57:32.117	20018	NULL	NULL	0	being amt of capital expenditure a/c sch-d trfd to sch-a for the year ended 31-03-2018	20018	journal	291
+201384	20020	0	96/30.3.2019/20020	2019-04-29 00:00:00.000	1546100.00000	6	7	20020	2019-04-29 14:38:37.903	2019-04-29 14:38:37.903	20020	NULL	NULL	0	being amt of headwise detail of fee for the  f.y.2018-19	20020	journal	96
+
+..........................
+select * from accounts.transactiondetails where transactionmasterid in (201288,
+201290,
+201311,
+201352,
+201384)
+
+
+476020	201288	995	0.00000	0.00000	NULL	NULL	NULL	0	a06ea9a9-29de-43d6-8375-f27061b61fcb	20028
+476021	201288	1	0.00000	0.00000	NULL	NULL	NULL	1	a06ea9a9-29de-43d6-8375-f27061b61fcb	20028
+476028	201290	2440	0.00000	0.00000	NULL	NULL	NULL	0	b9c881c5-0dfd-4cc4-8061-9f8b6f806384	300010
+476029	201290	5979	0.00000	0.00000	NULL	NULL	NULL	0	b9c881c5-0dfd-4cc4-8061-9f8b6f806384	300010
+476097	201311	5223	0.00000	0.00000	NULL	NULL	NULL	0	f953c529-b9fd-41bf-8145-c1cc899dc77e	20025
+476098	201311	4847	0.00000	0.00000	NULL	NULL	NULL	0	f953c529-b9fd-41bf-8145-c1cc899dc77e	20025
+476247	201352	2060	50000.00000	0.00000	NULL	NULL	NULL	0	19d4b29f-d594-4ed9-989b-18696fbc32ac	20018
+476248	201352	9469	0.00000	95700.00000	NULL	NULL	NULL	0	19d4b29f-d594-4ed9-989b-18696fbc32ac	20018
+476249	201352	9470	0.00000	50000.00000	NULL	NULL	NULL	0	19d4b29f-d594-4ed9-989b-18696fbc32ac	20018
+476250	201352	1125	95700.00000	0.00000	NULL	NULL	NULL	0	19d4b29f-d594-4ed9-989b-18696fbc32ac	20018
+476320	201384	1263	0.00000	1546100.00000	NULL	NULL	NULL	0	abf0a0d9-f229-48a6-9005-b771109d2082	20020
+476321	201384	7177	68655.00000	0.00000	NULL	NULL	NULL	0	abf0a0d9-f229-48a6-9005-b771109d2082	20020
+476322	201384	7178	1286825.00000	0.00000	NULL	NULL	NULL	0	abf0a0d9-f229-48a6-9005-b771109d2082	20020
+476323	201384	7179	167520.00000	0.00000	NULL	NULL	NULL	0	abf0a0d9-f229-48a6-9005-b771109d2082	20020
+476324	201384	7180	23100.00000	0.00000	NULL	NULL	NULL	0	abf0a0d9-f229-48a6-9005-b771109d2082	20020
+
+............................................................
+
+delete from  accounts.transactiondetails where transactionmasterid in (201288,
+201290,
+201311,
+201352,
+201384)
+
+(15 row(s) affected)
+
+...........................
+
+delete from  accounts.transactionmaster where transactiondate='2019-04-29 00:00:00.000'
+and voucherno like'%30.3.2019%'
+
+
+(5 row(s) affected)
+
+............................
+
+select  * from accounts.transactionmaster where transactiondate='2019-04-30 00:00:00.000'
+and voucherno like'%30.3.2019%'
+
+201550	20003	0	15/30.3.2019/20003	2019-04-30 00:00:00.000	5000.00000	29	7	20003	2019-04-30 12:51:30.353	2019-04-30 12:51:30.353	20003	NULL	NULL	0	being wrong ledger a/c credited instead of PNB-445493(Uncovered -20032) vide v no 796/13/11/2018, now rectified 	20003	rectification entry	15
+201553	20003	0	16/30.3.2019/20003	2019-04-30 00:00:00.000	5000.00000	29	7	20003	2019-04-30 12:54:01.400	2019-04-30 12:54:01.400	20003	NULL	NULL	0	being wrong ledger a/c credited instead of PNB-445493(Uncovered -20032) vide v no 796/13/11/2018, now rectified 	20003	rectification entry	16
+..............................
+
+select * from accounts.transactiondetails where transactionmasterid in (201550,
+201553)
+
+476774	201550	11	0.00000	5000.00000	NULL	NULL	NULL	0	62d6429f-e9b4-41a7-a82e-755f612ed8ca	20003
+476775	201550	11429	5000.00000	0.00000	NULL	NULL	NULL	0	62d6429f-e9b4-41a7-a82e-755f612ed8ca	20003
+476780	201553	11429	0.00000	5000.00000	NULL	NULL	NULL	0	7da6a981-8db3-4f88-ac1d-716548bfadf4	20003
+476781	201553	11	5000.00000	0.00000	NULL	NULL	NULL	0	7da6a981-8db3-4f88-ac1d-716548bfadf4	20003
+.............................................................
+
+delete from  accounts.transactiondetails where transactionmasterid in (201550,
+201553)
+
+(4 row(s) affected)
+
+........................................
+
+delete from  accounts.transactionmaster where transactiondate='2019-04-30 00:00:00.000'
+and voucherno like'%30.3.2019%'
+
+
+(2 row(s) affected)
+
+.........................
+
+
+15 May task :
+
+
+
+select  * from accounts.transactionmaster where  voucherno ='335/27.12.2018/20005';
+
+182192	20005	0	335/27.12.2018/20005	2018-12-27 00:00:00.000	1000.00000	4	6	20005	2018-12-27 13:41:52.877	2018-12-27 13:41:52.877	20005	NULL	NULL	0	Being cash paid to Mr. paramjit singh for BFUHS visit on 28.12.2018 for documents deposit  	20005	cash	335
+................................................
+
+select * from accounts.transactiondetails where transactionmasterid ='182192';
+
+431942	182192	8569	0.00000	1000.00000	NULL	NULL	NULL	0	ac022018-de34-4a0a-a361-3d60742dd5b4	20005
+431943	182192	1	1000.00000	0.00000	NULL	NULL	NULL	1	ac022018-de34-4a0a-a361-3d60742dd5b4	20005
+
+.................
+
+
+delete  from accounts.transactiondetails where transactionmasterid ='182192';
+
+(2 row(s) affected)
+.........................................
+
+delete  from accounts.transactionmaster where  voucherno ='335/27.12.2018/20005';
+
+(1 row(s) affected)
+
+..................................
+
+
+select  * from accounts.transactionmaster where  voucherno ='106/12.12.2018/20005';
+
+180162	20005	0	106/12.12.2018/20005	2018-12-12 13:07:33.037	1020918.00000	6	7	20005	2018-12-12 13:07:33.053	2018-12-12 13:07:33.053	20005	NULL	NULL	0	Being salary for the month of nov due	20005	Journal	106
+.......................................................
+
+select * from accounts.transactiondetails where transactionmasterid ='180162';
+
+427366	180162	1351	0.00000	57766.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427367	180162	1618	19500.00000	0.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427368	180162	1196	1050.00000	0.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427369	180162	1189	0.00000	618808.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427370	180162	1190	0.00000	213292.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427371	180162	1191	0.00000	70707.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427372	180162	1192	0.00000	17324.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427373	180162	1189	0.00000	41424.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427374	180162	1193	0.00000	3697.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427375	180162	1195	23708.00000	0.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427376	180162	1194	30120.00000	0.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+427377	180162	1198	946540.00000	0.00000	NULL	NULL	NULL	0	9d14d9db-c39c-494e-9be4-0c60a33c5d00	20005
+..................................................
+
+delete  from accounts.transactiondetails where transactionmasterid ='180162';
+
+(12 row(s) affected)
+
+.....................
+
+
+delete  from accounts.transactionmaster where  voucherno ='106/12.12.2018/20005';
+
+(1 row(s) affected)
+
+.................................
+
+
+
+insert into useraccount values (58986,20056,'f1Nw9K3uSbDwj6rfryjFyw==','testpassword',Getdate(),Getdate(),'PasswordCode','Security','Action',0,Getdate(),	
+'2014-08-29 00:00:00.000','2014-08-29 00:00:00.000',0,0,NULL,'I',1,'2014-08-29 00:00:00.000',2,	
+'2014-08-29 00:00:00.000',2,default,NULL,NULL,'f1Nw9K3uSbDwj6rfryjFyw==','f1Nw9K3uSbDwj6rfryjFyw==')
+
+
+insert into Intra_InstInfo values (20056,'KC,ASR, Khalsa Global ',20056,	'KGRF',	7,	NULL,	default,	Getdate(),	2,	NULL,	NULL)
+
+insert into RoleUserAccount values(6,58986,GetDate(),2,GetDate(),2,default)
+
+
+...............................................................
+
+
+
+
+select * from  Accounts.AccountGenreteDayBook_Part1 where transactiondate1='07 Sep 2018'
+and ledgername1 like'%school bus fee%'
+
+select * from  Accounts.AccountGenreteDayBook_Part2 where transactiondate2='07 Sep 2018'
+and ledgername2 like'%school bus fee%'
+being school bus fee rec in cash for bus no 7942-7000, 8819-2700 dated 5/9/2018
+
+being school bus fee rec in cash for bus no 9832
+
+being school bus fee rec in cash for bus no 7942=4800, 8819 = 1050
+
+insert into Accounts.AccountGenreteDayBook_Part1 values(0,'School Bus fee','Receipt',NULL,
+ '5850.00','07 Sep 2018',NULL,165155,NULL,'VR-161/cash','being school bus fee rec in cash for bus no 7942=4800, 8819 = 1050')
+
+
+select * from accounts.transactionmaster where transactionmasterid='165151';
+
+
+select * from accounts.transactiondetails where transactionmasterid='165151';
+
+
+select * from accounts.transactionmaster where transactionmasterid='165153';
+
+
+select * from accounts.transactiondetails where transactionmasterid='165153';
+
+
+select * from accounts.transactionmaster where voucherno='161/07.09.2018/20012'; 165155
+
+
+select * from accounts.transactionmaster where transactionmasterid='165155';
+
+
+select * from accounts.transactiondetails where transactionmasterid='165155';
+
+select * from Accounts.vTransactionDetails where transactionmasterid='165155';
+
+update Accounts.vTransactionDetails set iscashentry=1 where transactiondetailsid='393089';
+
+........................................................................................................
+
+select top 100 * from accounts.transactionmaster
+
+select * from accounts.transactionmaster where transactionmasterid=10
+
+
+select * from accounts.transactionmaster where voucherno='4/05.04.2018/20011';
+
+
+select * from accounts.transactiondetails where transactionmasterid=136738
+
+update accounts.transactionmaster set voucherno='2/04.04.2016/20009'where transactionmasterid=10
+
+
+update accounts.transactionmaster set transactiondate='2016-04-04 00:00:00.000'where transactionmasterid=10
+
+
+2/04.04.2016/20009
+
+2016-04-04 00:00:00.000
+
+select * from accounts.temptotalaccountgroupdebitcredit
+
+select * from accounts.temptotalaccountgroupdebitcreditbackup
+
+delete from Accounts.TempTotalAccountGroupDebitCreditBackup
+
+
+select * from accounts.temptotalaccountgroupdebitcreditbackup where accountgroupid=14
+
+.....................................................................................................................
