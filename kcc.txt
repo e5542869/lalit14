@@ -1,0 +1,43 @@
+server name  45.35.13.137,1433
+
+username sa
+
+password Qmail5!2945^
+
+
+steve hutckins
+arun1two3
+....................
+
+rdp
+
+
+45.35.13.137
+
+username : administrator
+
+password: #@KC!a*@CA97$
+RS@#DdHs^*!ahC
+
+
+615-
+
+jobid1 productcode a
+
+feed import utility and par 2 utility
+
+savejobdetailtojobsummary
+
+
+..........
+
+ftp
+
+host: 45.35.13.137
+user: admin1
+pass: waheguruji2021
+
+ update Accounts.AccountLedgerOpeningBalance
+
+ set  OB_OpeningBalance =897898.00000
+ where OB_Id=107208 --- earlier  897686.00000
